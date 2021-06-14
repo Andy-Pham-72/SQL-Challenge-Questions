@@ -13,7 +13,7 @@ where [occupation_count] is the number of occurrences of an occupation in **OCCU
 
 **Input Format**
 
-![1.png](attachment:93054f52-01d8-4e51-953f-71fc579faa10.png)
+![1](https://user-images.githubusercontent.com/70767722/121921851-65b8b100-cd07-11eb-9f03-1e623611b5a4.png)
 
 Occupation will only contain one of the following values: Doctor, Professor, Singer or Actor.
 
@@ -21,7 +21,7 @@ Occupation will only contain one of the following values: Doctor, Professor, Sin
 
 An **Occupations** table that contains the following records:
 
-![2.png](attachment:a779ef88-3992-4516-805d-3ed25b26977d.png)
+![2](https://user-images.githubusercontent.com/70767722/121921877-6b15fb80-cd07-11eb-8740-774ebcb9b26d.png)
 
 **Sample Output**
 
