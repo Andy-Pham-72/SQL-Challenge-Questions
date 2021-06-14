@@ -39,7 +39,7 @@ Not A Triangle
 # <span style="color:blue">SOLUTION FOR MYSQL
 </span>
 
-
+We can use **IF() function** to solve this problem. The syntax is ‘IF(condition, A, B)’. When condition is satisfied, it will execute A otherwise B.
     
 ``` mysql
 SELECT IF(A+B>C AND A+C>B AND B+C>A, 
