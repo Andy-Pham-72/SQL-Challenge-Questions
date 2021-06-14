@@ -8,13 +8,13 @@ Write a query identifying the type of each record in the TRIANGLES table using i
 
 The TRIANGLES table is described as follows:
 
-![1.png](attachment:0df86f35-b858-42b7-9d8f-255d8bf21e5a.png)
+![1](https://user-images.githubusercontent.com/70767722/121915449-369f4100-cd01-11eb-8006-64bc77afd77c.png)
 
 Each row in the table denotes the lengths of each of a triangle's three sides.
 
 **Sample Input**
 
-![2.png](attachment:c33a63c9-6c45-499c-a46e-54fd95a4c63c.png)
+![2](https://user-images.githubusercontent.com/70767722/121915468-3a32c800-cd01-11eb-9d6a-ffd2cbf57b02.png)
 
 **Sample Output**
 
