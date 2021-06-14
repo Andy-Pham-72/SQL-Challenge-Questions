@@ -7,6 +7,7 @@ Pivot the Occupation column in **OCCUPATIONS** so that each Name is sorted alpha
 The **OCCUPATIONS** table is described as follows:
 
 ![1443816414-2a465532e7-1](https://user-images.githubusercontent.com/70767722/121964303-55b9c500-cd39-11eb-81cd-8e648294badf.png)
+
 Occupation will only contain one of the following values: Doctor, Professor, Singer or Actor.
 
 **Sample Input**
@@ -79,7 +80,3 @@ SELECT MIN(Doctor), MIN(Professor), MIN(Singer), MIN(Actor) FROM
 GROUP BY RowLine;
 ```
 
-
-```python
-
-```
