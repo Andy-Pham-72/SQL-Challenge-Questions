@@ -4,4 +4,4 @@
   
 
 
-This repository consists of all the SQL solutions that I have done from multiple resourses. The solutions are either for MySQL or PostgreSQL which I will make a note before the solution.
+This repository consists of all the SQL solutions that I have done from multiple resources. The solutions are either for MySQL or PostgreSQL which I will make a note before the solution.
