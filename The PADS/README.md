@@ -54,6 +54,8 @@ For this question, we can use **CONCAT() function** to solve the problem. The sy
 
 Then we can use either **SUBSTR()** or **LEFT()** functions to get the first letter of `Occupation`. The syntax is pretty intuitive that can return the very first letter with the length of 1 character from the string.
 
+## solution # 1
+
 ```mysql
 
 SELECT CONCAT( Name, '(', SUBSTR(Occupation,1,1),')') 
@@ -66,3 +68,18 @@ FROM OCCUPATIONS
     ORDER BY COUNT(Occupation), Occupation;
 
 ```
+
+## solution # 2
+
+```mysql
+SELECT CONCAT( Name, '(', LEFT(Occupation,1,1),')') 
+FROM OCCUPATIONS 
+    ORDER BY Name;
+    
+SELECT CONCAT("There are a total of ", COUNT(Occupation), ' ', LOWER(Occupation), 's.')
+FROM OCCUPATIONS
+    GROUP BY Occupation
+    ORDER BY COUNT(Occupation), Occupation;
+
+```
+
