@@ -59,7 +59,7 @@ Let's visualize the table that we are going to create as below:
 ```mysql
 SELECT MIN(Doctor), MIN(Professor), MIN(Singer), MIN(Actor)
 FROM new_table
-GROUP BY Numline
+GROUP BY NumLine
 ```
 
 * In order to get the `new_table`, we use **user-defined variables** and **CASE** operator. We will create 4 variables to record the line number of `NumLine` column, one for each occupation. We can use **CASE** to add variables according to occupation.
