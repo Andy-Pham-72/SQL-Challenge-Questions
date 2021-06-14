@@ -36,7 +36,7 @@ Not A Triangle
 
 * Values in the tuple **(13,14,30)** cannot form a triangle because the combined value of sides A and B is not larger than the side C.
 
-# <span style="color:blue">SOLUTION
+# <span style="color:blue">SOLUTION FOR MYSQL
 </span>
 
 
