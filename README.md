@@ -1,6 +1,6 @@
 # SQL Practice Questions
 
-<p align="center"> </p> ![sql](https://user-images.githubusercontent.com/70767722/121912210-66007e80-ccfe-11eb-8176-43d73bdea02d.png)
+![sql](https://user-images.githubusercontent.com/70767722/121912210-66007e80-ccfe-11eb-8176-43d73bdea02d.png)
   
 
 
