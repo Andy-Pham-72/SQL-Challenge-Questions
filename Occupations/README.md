@@ -6,13 +6,12 @@ Pivot the Occupation column in **OCCUPATIONS** so that each Name is sorted alpha
 
 The **OCCUPATIONS** table is described as follows:
 
-![1443816414-2a465532e7-1.png](attachment:81c5925e-1167-4498-9945-5386bc8c3418.png)
-
+![1443816414-2a465532e7-1](https://user-images.githubusercontent.com/70767722/121964303-55b9c500-cd39-11eb-81cd-8e648294badf.png)
 Occupation will only contain one of the following values: Doctor, Professor, Singer or Actor.
 
 **Sample Input**
 
-![1443817648-1b2b8add45-2.png](attachment:aabf5111-ab4a-4408-ae96-6b4d3903738a.png)
+![1443817648-1b2b8add45-2](https://user-images.githubusercontent.com/70767722/121964311-581c1f00-cd39-11eb-8c95-3116a176cbc4.png)
 
 **Sample Output**
 
