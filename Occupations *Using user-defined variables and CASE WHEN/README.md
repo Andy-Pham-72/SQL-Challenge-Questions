@@ -63,6 +63,7 @@ GROUP BY NumLine
 ```
 
 * In order to get the `new_table`, we use **user-defined variables** and **CASE** operator. We will create 4 variables to record the line number of `NumLine` column, one for each occupation. We can use **CASE** to add variables according to occupation.
+* We use **MIN()** function here to only showcase the names and not the NULL values from the table. After that we use **GROUP BY** clause to return the "Lowest" element from each column that will be the first element since we used **ORDER BY** earlier.
 
 ```mysql
 SET @r1=0, @r2=0, @r3 =0, @r4=0;
