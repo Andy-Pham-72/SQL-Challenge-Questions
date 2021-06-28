@@ -56,7 +56,7 @@ In order to solve this problem, we can use:
 * **`IF`** to assign all the Grade that smaller than 8 as `**Null*`
 * **`JOIN`** to combine 2 tables `STUDENTS` and `GRADES`
 * **`WHERE`** **`MARKS`** and **`BETWEEN`** **`MIN_MARK`** AND **`MAX_MARK`**  in order to assign the Marks within a particular range to a corresponding grade.
-* **`ORDER BY`** `GRADE` DESC AND NAME (by default it will be in ASCENDING order) in order to organize the result as the requirements.
+* **`ORDER BY`** `GRADE` DESC AND `NAME` (by default it will be in ASCENDING order) in order to organize the result as the requirements.
 
 ``` mysql
 
