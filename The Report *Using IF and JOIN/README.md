@@ -21,7 +21,7 @@ You are given two tables
 
 ### Sample Input
 
-![1443818026-0b3af8db30-4](https://user-images.githubusercontent.com/70767722/123565106-b6112380-d789-11eb-829a-316a3c4489f3.png)
+![1443818093-b79f376ec1-3](https://user-images.githubusercontent.com/70767722/123565134-ce813e00-d789-11eb-9db2-3cee8292cb42.png)
 
 ### Sample Output
 
@@ -40,7 +40,7 @@ NULL    7 68
 
 Consider the following table with the grades assigned to the students:
 
-https://s3.amazonaws.com/hr-challenge-images/12891/1443818026-0b3af8db30-4.png
+![1443818026-0b3af8db30-4](https://user-images.githubusercontent.com/70767722/123565130-c9bc8a00-d789-11eb-9c13-8ce28ccdec41.png)
 
 So, the following students got 8,9, and 10 grades:
 
