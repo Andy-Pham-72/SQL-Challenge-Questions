@@ -135,8 +135,6 @@ ORDER BY COUNT(s.hacker_id) DESC, s.hacker_id ASC
 
 Link to the [Top Competitors challenge](https://www.hackerrank.com/challenges/full-score/problem)
 
-
-
-```python
-
-```
+Supplemental Readings for the problem:
+- [GROUP BY](https://www.datacamp.com/community/tutorials/group-by-having-clause-sql?utm_source=adwords_ppc&utm_campaignid=898687156&utm_adgroupid=48947256715&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=332602034349&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=9061009&gclid=Cj0KCQjw5uWGBhCTARIsAL70sLJtJ9VL1miWgP8kG6dNfJzXqqlgEOJzQDoK6oH2dvQMOlMXUJO2NbQaAjgFEALw_wcB)
+- [INNER JOIN](https://www.sqlshack.com/learn-sql-inner-join-vs-left-join/)
