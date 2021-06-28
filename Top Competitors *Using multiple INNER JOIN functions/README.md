@@ -16,20 +16,21 @@ We have 4 tables that contain the needed data for our query.
     * `hacker_id`
     * `name` of hacker
 
-https://s3.amazonaws.com/hr-challenge-images/19504/1458526776-67667350b4-ScreenShot2016-03-21at7.45.59AM.png
+![1458526776-67667350b4-ScreenShot2016-03-21at7 45 59AM](https://user-images.githubusercontent.com/70767722/123672023-e64dd600-d80c-11eb-9275-62925e562232.png)
 
 - **Difficulty** table contains:
     * `difficulty_level`
     * `score` of each level which is the full score that can achieve
     
-https://s3.amazonaws.com/hr-challenge-images/19504/1458526915-57eb75d9a2-ScreenShot2016-03-21at7.46.09AM.png
+![1458526915-57eb75d9a2-ScreenShot2016-03-21at7 46 09AM](https://user-images.githubusercontent.com/70767722/123672039-e948c680-d80c-11eb-85df-6e0c8eba7c06.png)
 
 - **Challenges** table contains:
     * `challenge_id` shows the unique challenge id for the corresponding difficulty level
     * `hacker_id`
     * `difficulty_level`
 
-https://s3.amazonaws.com/hr-challenge-images/19504/1458527032-f9ca650442-ScreenShot2016-03-21at7.46.17AM.png
+![1458527032-f9ca650442-ScreenShot2016-03-21at7 46 17AM](https://user-images.githubusercontent.com/70767722/123672051-ef3ea780-d80c-11eb-805a-15e591f5176c.png)
+
 
 - **Submissions** table contains:
     * `submission_id` 
@@ -37,23 +38,23 @@ https://s3.amazonaws.com/hr-challenge-images/19504/1458527032-f9ca650442-ScreenS
     * `challenge_id`
     * `score` shows the score that each hacker had from the challenge which is different from the `score` of table **Difficulty**
 
-https://s3.amazonaws.com/hr-challenge-images/19504/1458527077-298f8e922a-ScreenShot2016-03-21at7.46.29AM.png
+![1458527077-298f8e922a-ScreenShot2016-03-21at7 46 29AM](https://user-images.githubusercontent.com/70767722/123672075-f5348880-d80c-11eb-9630-282eb40c0743.png)
 
 ### Sample Input
 
 below tables showing the sample of the actual tables look like:
 
 - **Hackers**
-https://s3.amazonaws.com/hr-challenge-images/19504/1458527241-6922b4ad87-ScreenShot2016-03-21at7.47.02AM.png
+![1458527241-6922b4ad87-ScreenShot2016-03-21at7 47 02AM](https://user-images.githubusercontent.com/70767722/123672100-fb2a6980-d80c-11eb-9783-88070c0388bb.png)
 
 - **Difficulty** 
-https://s3.amazonaws.com/hr-challenge-images/19504/1458527265-7ad6852a13-ScreenShot2016-03-21at7.46.50AM.png
+![1458527265-7ad6852a13-ScreenShot2016-03-21at7 46 50AM](https://user-images.githubusercontent.com/70767722/123672130-0087b400-d80d-11eb-8fc5-0afd0dfccaee.png)
 
 - **Challenges** 
-https://s3.amazonaws.com/hr-challenge-images/19504/1458527285-01e95eb6ec-ScreenShot2016-03-21at7.46.40AM.png
+![1458527285-01e95eb6ec-ScreenShot2016-03-21at7 46 40AM](https://user-images.githubusercontent.com/70767722/123672157-067d9500-d80d-11eb-9dfb-c3eaf425f1e6.png)
 
 - **Submissions**
-https://s3.amazonaws.com/hr-challenge-images/19504/1458527812-479a74b99f-ScreenShot2016-03-21at8.06.05AM.png
+![1458527812-479a74b99f-ScreenShot2016-03-21at8 06 05AM](https://user-images.githubusercontent.com/70767722/123672197-0f6e6680-d80d-11eb-9360-c61705b16a68.png)
 
 ### Sample Output
 
