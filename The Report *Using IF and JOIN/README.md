@@ -21,7 +21,7 @@ You are given two tables
 
 ### Sample Input
 
-![1443818093-b79f376ec1-3](https://user-images.githubusercontent.com/70767722/123565080-a5f94400-d789-11eb-8d7a-5ead51f18045.png)
+![1443818026-0b3af8db30-4](https://user-images.githubusercontent.com/70767722/123565106-b6112380-d789-11eb-829a-316a3c4489f3.png)
 
 ### Sample Output
 
