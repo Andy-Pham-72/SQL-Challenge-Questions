@@ -67,3 +67,5 @@ WHERE MARKS BETWEEN MIN_MARK AND MAX_MARK
 ORDER BY GRADE DESC, NAME ;
 
 ```
+
+LINK to the challenge [The Report](https://www.hackerrank.com/challenges/the-report/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
