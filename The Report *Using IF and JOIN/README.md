@@ -1,5 +1,7 @@
 # The Report
 
+# Problem
+
 You are given two tables
 
 ### Students
