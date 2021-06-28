@@ -4,11 +4,11 @@ You are given two tables
 
 ### Students
 
-https://s3.amazonaws.com/hr-challenge-images/12891/1443818166-a5c852caa0-1.png
+![1443818166-a5c852caa0-1](https://user-images.githubusercontent.com/70767722/123565068-9f6acc80-d789-11eb-8e7f-681a123426f6.png)
 
 ### Grades
 
-https://s3.amazonaws.com/hr-challenge-images/12891/1443818137-69b76d805c-2.png
+![1443818137-69b76d805c-2](https://user-images.githubusercontent.com/70767722/123565072-a265bd00-d789-11eb-99a0-fa3264c8272f.png)
 
 **Scenario**: 
 - Ketty gives Eve a task to generate a report containing three columns: `Name`, `Grade`, and `Mark`.
@@ -21,7 +21,7 @@ https://s3.amazonaws.com/hr-challenge-images/12891/1443818137-69b76d805c-2.png
 
 ### Sample Input
 
-https://s3.amazonaws.com/hr-challenge-images/12891/1443818093-b79f376ec1-3.png
+![1443818093-b79f376ec1-3](https://user-images.githubusercontent.com/70767722/123565080-a5f94400-d789-11eb-8d7a-5ead51f18045.png)
 
 ### Sample Output
 
