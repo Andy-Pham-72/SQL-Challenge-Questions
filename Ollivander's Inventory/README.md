@@ -112,7 +112,7 @@ ORDER BY w.power DESC, p.age DESC
    
    [LINK TO THE CHALLENGE](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem)
     
-### Suplemental Readings about **Correlated Subquerry:
+### Suplemental Readings for Correlated Subquerry:
 * https://www.javatpoint.com/mysql-subquery
 * https://www.w3resource.com/mysql/subqueries/index.php
 
