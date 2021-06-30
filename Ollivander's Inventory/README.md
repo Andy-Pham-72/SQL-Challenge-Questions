@@ -39,12 +39,12 @@ Hermione decides the best way to choose is by determining the minimum number of 
 
 - **`Wands`** table:
     
-    https://s3.amazonaws.com/hr-challenge-images/19502/1458538559-51bf29644e-ScreenShot2016-03-21at10.34.41AM.png
-    
+![1458538559-51bf29644e-ScreenShot2016-03-21at10 34 41AM](https://user-images.githubusercontent.com/70767722/123890325-053f8b80-d925-11eb-9e29-05dc2a05b5af.png)
+   
 - **`Wands_Property`** table:
     
-    https://s3.amazonaws.com/hr-challenge-images/19502/1458538583-fd514566f9-ScreenShot2016-03-21at10.34.28AM.png
-    
+![1458538583-fd514566f9-ScreenShot2016-03-21at10 34 28AM](https://user-images.githubusercontent.com/70767722/123890338-0a043f80-d925-11eb-9d58-879eb90bf598.png)
+   
 ### Sample Output
     
 ```
@@ -59,22 +59,25 @@ Hermione decides the best way to choose is by determining the minimum number of 
 ### Explanation:
 
 - the data for the wands of age 45 (code 1):
-    https://s3.amazonaws.com/hr-challenge-images/19502/1458539700-2f319702ab-ScreenShot2016-03-21at11.23.06AM.png
-    
+   
+![1458539700-2f319702ab-ScreenShot2016-03-21at11 23 06AM](https://user-images.githubusercontent.com/70767722/123890367-15f00180-d925-11eb-8943-afaac76e41b9.png)
+   
     * The minimum number of galleons needed for wand(age = 45, power = 2)  = 6020
     * The minimum number of galleons needed for wand(age = 45, power = 10)  = 1647
     
 - The data for wands of age 40 (code 2):
-    https://s3.amazonaws.com/hr-challenge-images/19502/1458539909-ab79f7ff95-ScreenShot2016-03-21at11.23.14AM.png
-    
+   
+![1458539909-ab79f7ff95-ScreenShot2016-03-21at11 23 14AM](https://user-images.githubusercontent.com/70767722/123890387-1dafa600-d925-11eb-8c00-027f491982ad.png)
+   
     * The minimum number of galleons needed for wand(age = 40, power = 1)  = 5408
     * The minimum number of galleons needed for wand(age = 40, power = 3)  = 3312
     * The minimum number of galleons needed for wand(age = 40, power = 5)  = 7587
     * The minimum number of galleons needed for wand(age = 40, power = 7)  = 6018
 
 - The data of wands of age 17 (code 5):
-    https://s3.amazonaws.com/hr-challenge-images/19502/1458540132-79fd7b916b-ScreenShot2016-03-21at11.23.34AM.png
-    
+   
+![1458540132-79fd7b916b-ScreenShot2016-03-21at11 23 34AM](https://user-images.githubusercontent.com/70767722/123890418-2a33fe80-d925-11eb-965c-6b9ac077d507.png)
+   
     * The minimum number of galleons needed for wand(age = 17, power = 3)  = 5689
     * The minimum number of galleons needed for wand(age = 17, power = 10) = 9897
 
@@ -112,7 +115,3 @@ ORDER BY w.power DESC, p.age DESC
 * https://www.w3resource.com/mysql/subqueries/index.php
 
 
-
-```python
-
-```
