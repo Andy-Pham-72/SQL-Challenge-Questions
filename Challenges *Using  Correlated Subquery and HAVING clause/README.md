@@ -79,19 +79,19 @@ HAVING
 # output anyone with a count that is equal to... 
 c_count = 
     # the max count that anyone has 
-    (SELECT MAX(temp1.cnt)
-    FROM (SELECT COUNT(hacker_id) as cnt
+    (SELECT MAX(temp.cnt)  # "cnt" from "temp"
+    FROM (SELECT COUNT(hacker_id) AS cnt
          FROM Challenges
          GROUP BY hacker_id
-         ORDER BY hacker_id) temp1)
+         ORDER BY hacker_id) AS temp)
 
 # or anyone who's count is in... 
 OR c_count IN
     # the set of counts... 
-    (SELECT t.cnt
+    (SELECT t.cnt     # "cnt" from "t"
      FROM (SELECT COUNT(*) AS cnt 
            FROM challenges
-           GROUP BY hacker_id) t
+           GROUP BY hacker_id) AS t
      # who's group of counts... 
      GROUP BY t.cnt
      # has only one element 
