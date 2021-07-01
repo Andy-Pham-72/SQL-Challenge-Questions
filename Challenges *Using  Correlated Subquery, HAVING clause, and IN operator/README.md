@@ -131,6 +131,7 @@ c_count =
 ```
 
 => In the first condition of `HAVING` clause, we wanted to find the maximum number of challenges completed by the hackers. **(1st requirement)**
+(we are using correlated subquerry for `c_count`)
 
 ```mysql
 OR c_count IN
@@ -158,3 +159,4 @@ OR c_count IN
 - Supplemental Readings:
     * [Differences between `WHERE` and `HAVING` clause in SQL](https://www.java67.com/2019/06/difference-between-where-and-having-in-sql.html)
     * [IN Operator](https://www.w3schools.com/sql/sql_in.asp)
+    * [Correlated Subquerry](https://www.w3resource.com/mysql/subqueries/index.php)
