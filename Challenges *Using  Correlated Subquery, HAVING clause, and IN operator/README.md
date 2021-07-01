@@ -69,7 +69,8 @@ SELECT c.hacker_id,
 
 # this is the join we want to output them from 
 FROM Hackers AS h
-    INNER JOIN Challenges AS c ON c.hacker_id = h.hacker_id
+    INNER JOIN Challenges AS c 
+    ON c.hacker_id = h.hacker_id
 
 # after they have been grouped by hacker 
 GROUP BY c.hacker_id, h.name
@@ -112,7 +113,8 @@ SELECT c.hacker_id,
 
 # this is the join we want to output them from 
 FROM Hackers AS h
-    INNER JOIN Challenges AS c ON c.hacker_id = h.hacker_id
+    INNER JOIN Challenges AS c 
+    ON c.hacker_id = h.hacker_id
 ```
 
 => We want to list the `hacker_id`, `name`, `total number of challenges completed` (which should meet the requirements) by **INNER JOIN/ JOIN** the 2 tables `Hackers` and `Challenges` **ON** `hacker_id` rows.
