@@ -63,7 +63,9 @@ For sample above, we can get the following details:
 
 ```mysql
 # these are the columns we want to output 
-SELECT c.hacker_id, h.name ,COUNT(c.hacker_id) AS c_count
+SELECT c.hacker_id, 
+       h.name ,
+       COUNT(c.hacker_id) AS c_count
 
 # this is the join we want to output them from 
 FROM Hackers AS h
@@ -95,12 +97,59 @@ OR c_count IN
      # who's group of counts... 
      GROUP BY t.cnt
      # has only one element 
-     HAVING COUNT(t.cnt) = 1)
+     HAVING COUNT(t.cnt) = 1) # We only want to have the unique number of challenges completed
 
 # finally, the order the rows should be output
 ORDER BY c_count DESC, c.hacker_id
 ;
 ```
+### Breaking down the query
+
+```mysql
+SELECT c.hacker_id, 
+       h.name ,
+       COUNT(c.hacker_id) AS c_count
+
+# this is the join we want to output them from 
+FROM Hackers AS h
+    INNER JOIN Challenges AS c ON c.hacker_id = h.hacker_id
+```
+
+=> We want to list the `hacker_id`, `name`, `total number of challenges completed` (which should meet the requirements) by joining the 2 tables `Hackers` and `Challenges` **ON** `hacker_id` rows.
+
+```mysql
+HAVING 
+
+# output anyone with a count that is equal to... 
+c_count = 
+    # the max count that anyone has 
+    (SELECT MAX(temp.cnt)  # "cnt" from "temp"
+    FROM (SELECT COUNT(hacker_id) AS cnt
+         FROM Challenges
+         GROUP BY hacker_id
+         ORDER BY hacker_id) AS temp)
+```
+
+=> In the first condition of `HAVING` clause, we wanted to find the maximum number of challenges completed by the hackers. **(1st requirement)**
+
+```mysql
+OR c_count IN
+    # the set of counts... 
+    (SELECT t.cnt     # "cnt" from "t"
+     FROM (SELECT COUNT(*) AS cnt 
+           FROM challenges
+           GROUP BY hacker_id) AS t
+     # who's group of counts... 
+     GROUP BY t.cnt
+     # has only one element 
+     HAVING COUNT(t.cnt) = 1) # We only want to have the unique number of challenges completed
+```
+
+=> In the second condition of `HAVING` clause, we wanted to find the unique number of challenges completed by the hackers. **(2nd requirement)**
+
+**THE INTUITION**: this is all done to meet the requirements of the problem:
+- If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
+- **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
 
 
 - [LINK to the challenge](https://www.hackerrank.com/challenges/challenges/problem)
