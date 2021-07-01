@@ -148,9 +148,10 @@ OR c_count IN
 => In the second condition of `HAVING` clause, we wanted to find the unique number of challenges completed by the hackers. **(2nd requirement)**
 
 **THE INTUITION**: this is all done to meet the requirements of the problem:
-- If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
-- **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
+       - If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
+       - **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
 
+------------------------
 
 - [LINK to the challenge](https://www.hackerrank.com/challenges/challenges/problem)
 
