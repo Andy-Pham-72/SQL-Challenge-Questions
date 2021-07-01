@@ -104,3 +104,6 @@ ORDER BY c_count DESC, c.hacker_id
 
 
 - [LINK to the challenge](https://www.hackerrank.com/challenges/challenges/problem)
+
+- Supplemetal Readings:
+    * [Differences between `WHERE` and `HAVING` clause in SQL](https://www.java67.com/2019/06/difference-between-where-and-having-in-sql.html)
