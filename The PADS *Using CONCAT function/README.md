@@ -54,7 +54,9 @@ The results of the second query are ascendingly ordered first by number of names
 
 - 1st Query, we can use **CONCAT() function** to solve the problem. The syntax should be `CONCAT(expression1, expression2, expression3,...)` that can add two or more expressions together, it can return the results from concatinating the arguments.
 
-- 2nd Query, we can use either **SUBSTR()** or **LEFT()** functions to get the first letter of `Occupation`. The syntax is pretty intuitive that can return the very first letter with the length of 1 character from the string.
+- Then we can use either **SUBSTR()** or **LEFT()** functions to get the first letter of `Occupation`. The syntax is pretty intuitive that can return the very first letter with the length of 1 character from the string.
+
+- 2nd Query follows the same pattern with the combination of `COUNT` and `LOWER` functions within `CONCAT` function in order to print out the string.
 
 ## solution # 1
 
