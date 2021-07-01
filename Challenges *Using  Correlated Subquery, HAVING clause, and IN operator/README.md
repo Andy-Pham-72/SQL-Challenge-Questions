@@ -150,9 +150,9 @@ OR c_count IN
 
 **THE INTUITION**: this is all done to meet the requirements of the problem:
 
-       - If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
+- If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
        
-       - **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
+- **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
 
 ------------------------
 
