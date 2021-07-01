@@ -3,7 +3,8 @@
 ![sql](https://user-images.githubusercontent.com/70767722/121912210-66007e80-ccfe-11eb-8176-43d73bdea02d.png)
   
 
-This repository consists of all the SQL solutions with intuitive explanations that I have done from multiple resources. The solutions are either for MySQL or PostgreSQL which I will make a note before the solution.
+This repository consists of all the SQL solutions with intuitive explanations that I have done from multiple resources (including supplemental readings about some functions and operators used). 
+The solutions are either for MySQL or PostgreSQL which I will make a note before the solution.
 
 - [Challenges *Using Correlated Subquery, HAVING clause, and IN operator](https://github.com/Andy-Pham-72/SQL-Challenge-Questions/tree/master/Challenges%20*Using%20%20Correlated%20Subquery%20and%20HAVING%20clause)
 - [Occupations *Using User-Defined Variables and CASE WHEN](https://github.com/Andy-Pham-72/SQL-Challenge-Questions/tree/master/Occupations%20*Using%20User-Defined%20Variables%20and%20CASE%20WHEN)
