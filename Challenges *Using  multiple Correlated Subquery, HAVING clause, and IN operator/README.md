@@ -93,7 +93,7 @@ OR c_count IN
     # the set of counts... 
     (SELECT t.cnt     # "cnt" from "t"
      FROM (SELECT COUNT(*) AS cnt 
-           FROM challenges
+           FROM Challenges
            GROUP BY hacker_id) AS t
      # who's group of counts... 
      GROUP BY t.cnt
