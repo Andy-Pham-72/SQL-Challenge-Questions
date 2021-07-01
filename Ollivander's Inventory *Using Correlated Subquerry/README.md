@@ -110,6 +110,8 @@ ORDER BY w.power DESC, p.age DESC
 ;
 ```
    
+ -----------------------------------  
+   
    [LINK TO THE CHALLENGE](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem)
     
 ### Suplemental Readings for Correlated Subquerry:
