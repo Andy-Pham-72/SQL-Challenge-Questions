@@ -115,7 +115,7 @@ FROM Hackers AS h
     INNER JOIN Challenges AS c ON c.hacker_id = h.hacker_id
 ```
 
-=> We want to list the `hacker_id`, `name`, `total number of challenges completed` (which should meet the requirements) by joining the 2 tables `Hackers` and `Challenges` **ON** `hacker_id` rows.
+=> We want to list the `hacker_id`, `name`, `total number of challenges completed` (which should meet the requirements) by **INNER JOIN/ JOIN** the 2 tables `Hackers` and `Challenges` **ON** `hacker_id` rows.
 
 ```mysql
 HAVING 
