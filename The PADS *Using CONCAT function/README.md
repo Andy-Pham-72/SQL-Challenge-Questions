@@ -89,4 +89,9 @@ FROM OCCUPATIONS
     ORDER BY COUNT(Occupation), Occupation;
 
 ```
+----------------------
 
+### Supplemental Readings:
+- [CONCANT() FUNCTION](https://www.w3schools.com/sql/func_sqlserver_concat.asp)
+- [SUBTR() FUNCTION](https://www.w3schools.com/sql/func_mysql_substr.asp)
+- [LOWER() FUNCTION](https://www.w3schools.com/sql/func_sqlserver_lower.asp)
