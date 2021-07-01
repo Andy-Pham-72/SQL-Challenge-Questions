@@ -158,8 +158,10 @@ ORDER BY c_count DESC, c.hacker_id
 
 - `HAVING` clause can only be used after the `GROUP BY` clause and to filter on **aggregate** function like `COUNT`, `SUM`, `MAX`, `MIN`, `AVG`
 - `HAVING` is used to meet the requirements of the problem:
-       * If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
-       * **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
+
+   * If more than one student created the same number of challenges, only keep the students who uphold the maximum number of challenges.**(1st requirement)**
+
+   * **AND** if more than one student created the same number of challenges with the count is less than the maximum number of challenges, then exclude those students from the result. **(2nd requirement)**
 
 ------------------------
 
