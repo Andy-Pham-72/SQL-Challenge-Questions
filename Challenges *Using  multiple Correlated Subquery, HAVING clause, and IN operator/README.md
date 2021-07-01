@@ -82,23 +82,23 @@ HAVING
 # output anyone with a count that is equal to the MAX count of challenges
 c_count = 
     # the max count that anyone has 
-    (SELECT MAX(temp.cnt)  # "cnt" from "temp"
+    (SELECT MAX(temp1.cnt)  # "cnt" from "temp1"
     FROM (SELECT COUNT(hacker_id) AS cnt
          FROM Challenges
          GROUP BY hacker_id
-         ORDER BY hacker_id) AS temp)
+         ORDER BY hacker_id) AS temp1)
 
-# or 
+# using OR to meet the 2nd requirement
 OR c_count IN
     # the set of counts... 
-    (SELECT t.cnt     # "cnt" from "t"
+    (SELECT temp2.cnt     # "cnt" from "t"
      FROM (SELECT COUNT(*) AS cnt 
            FROM Challenges
-           GROUP BY hacker_id) AS t
+           GROUP BY hacker_id) AS temp2
      # who's group of counts... 
-     GROUP BY t.cnt
+     GROUP BY temp2.cnt
      # has only one element 
-     HAVING COUNT(t.cnt) = 1) # We only want to have the unique number of challenges completed
+     HAVING COUNT(temp2.cnt) = 1) # We only want to have the unique number of challenges completed
 
 # finally, the order the rows should be output
 ORDER BY c_count DESC, c.hacker_id
@@ -125,27 +125,31 @@ HAVING
 # output anyone with a count that is equal to the MAX count of challenges
 c_count = 
     # the max count that anyone has 
-    (SELECT MAX(temp.cnt)  # "cnt" from "temp"
+    (SELECT MAX(temp1.cnt)  # "cnt" from "temp1"
     FROM (SELECT COUNT(hacker_id) AS cnt
          FROM Challenges
          GROUP BY hacker_id
-         ORDER BY hacker_id) AS temp)
+         ORDER BY hacker_id) AS temp1)
 ```
 
 => In the first condition of `HAVING` clause, we wanted to find the maximum number of challenges completed by the hackers. **(1st requirement)**
 (we are using correlated subquerry for `c_count`)
 
 ```mysql
+# using OR to meet the 2nd requirement
 OR c_count IN
     # the set of counts... 
-    (SELECT t.cnt     # "cnt" from "t"
+    (SELECT temp2.cnt     # "cnt" from "t"
      FROM (SELECT COUNT(*) AS cnt 
-           FROM challenges
-           GROUP BY hacker_id) AS t
+           FROM Challenges
+           GROUP BY hacker_id) AS temp2
      # who's group of counts... 
-     GROUP BY t.cnt
+     GROUP BY temp2.cnt
      # has only one element 
-     HAVING COUNT(t.cnt) = 1) # We only want to have the unique number of challenges completed
+     HAVING COUNT(temp2.cnt) = 1) # We only want to have the unique number of challenges completed
+
+# finally, the order the rows should be output
+ORDER BY c_count DESC, c.hacker_id
 ```
 
 => In the second condition of `HAVING` clause, we wanted to find the unique number of challenges completed by the hackers. **(2nd requirement)**
