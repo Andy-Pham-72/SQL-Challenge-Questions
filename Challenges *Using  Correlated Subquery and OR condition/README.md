@@ -21,11 +21,11 @@ The following tables contain challenge data:
 
 ### Sample Input #1
 
-- **Hackers** table:
+- **`Hackers`** table:
 
 ![1458521384-34c6866dae-ScreenShot2016-03-21at6 07 15AM](https://user-images.githubusercontent.com/70767722/124061282-9c2b4700-d9fc-11eb-864b-601100b2e805.png)
 
-- **Challenges** table:
+- **`Challenges`** table:
 
 ![1458521410-befa8e1cd9-ScreenShot2016-03-21at6 07 25AM](https://user-images.githubusercontent.com/70767722/124061296-a0effb00-d9fc-11eb-86ff-e230351f2966.png)
 
