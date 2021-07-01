@@ -1,5 +1,3 @@
-# Challenges
-
 # Problem
 
 Julia asked her students to create some coding challenges.
