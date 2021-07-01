@@ -74,11 +74,11 @@ FROM Hackers AS h
 # after they have been grouped by hacker 
 GROUP BY c.hacker_id, h.name
 
-# but we want to be selective about which hackers we output 
-# having is required (instead of where) for filtering on groups 
+# we have to filter the number of challenges according to the requirements 
+# HAVING is required (instead of WHERE) for filtering on groups 
 HAVING 
 
-# output anyone with a count that is equal to... 
+# output anyone with a count that is equal to the MAX count of challenges
 c_count = 
     # the max count that anyone has 
     (SELECT MAX(temp.cnt)  # "cnt" from "temp"
@@ -87,7 +87,7 @@ c_count =
          GROUP BY hacker_id
          ORDER BY hacker_id) AS temp)
 
-# or anyone who's count is in... 
+# or 
 OR c_count IN
     # the set of counts... 
     (SELECT t.cnt     # "cnt" from "t"
@@ -120,7 +120,7 @@ FROM Hackers AS h
 ```mysql
 HAVING 
 
-# output anyone with a count that is equal to... 
+# output anyone with a count that is equal to the MAX count of challenges
 c_count = 
     # the max count that anyone has 
     (SELECT MAX(temp.cnt)  # "cnt" from "temp"
